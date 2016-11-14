@@ -2225,6 +2225,7 @@
 #include "harroway\code\_helpers\ui.dm"
 #include "harroway\code\game\objects\items\weapons\defib.dm"
 #include "harroway\code\modules\admin\verbs\update_server.dm"
+#include "harroway\code\modules\mob\living\carbon\human\species\station\vulpkani.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_map_include.dm"

@@ -13,7 +13,7 @@
 	species_restricted = list("Human", "Machine")
 	sprite_sheets = list(
 		"Unathi" = 'icons/mob/species/unathi/helmet.dmi',
-		"Tajara" = 'icons/mob/species/tajaran/helmet.dmi',
+		"Tajara" = 'icons/mob/species/tajaran/helmet.dmi', "Vulpkanin" = 'harroway/icons/mob/species/vulpkanin/helmet.dmi',
 		"Skrell" = 'icons/mob/species/skrell/helmet.dmi',
 		"Resomi" = 'icons/mob/species/resomi/helmet.dmi',
 		)
@@ -41,7 +41,7 @@
 	species_restricted = list("Human", "Skrell", "Machine")
 	sprite_sheets = list(
 		"Unathi" = 'icons/mob/species/unathi/suit.dmi',
-		"Tajara" = 'icons/mob/species/tajaran/suit.dmi',
+		"Tajara" = 'icons/mob/species/tajaran/suit.dmi', "Vulpkanin" = 'harroway/icons/mob/species/vulpkanin/suit.dmi',
 		"Skrell" = 'icons/mob/species/skrell/suit.dmi',
 		"Resomi" = 'icons/mob/species/resomi/suit.dmi',
 		)

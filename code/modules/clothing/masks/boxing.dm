@@ -7,7 +7,7 @@
 	body_parts_covered = FACE|HEAD
 	w_class = ITEM_SIZE_SMALL
 	sprite_sheets = list(
-		"Tajara" = 'icons/mob/species/tajaran/mask.dmi',
+		"Tajara" = 'icons/mob/species/tajaran/mask.dmi', "Vulpkanin" = 'harroway/icons/mob/species/vulpkanin/mask.dmi',
 		"Unathi" = 'icons/mob/species/unathi/mask.dmi',
 		)
 
@@ -19,7 +19,7 @@
 	flags_inv = HIDEFACE|BLOCKHAIR
 	w_class = ITEM_SIZE_SMALL
 	sprite_sheets = list(
-		"Tajara" = 'icons/mob/species/tajaran/mask.dmi',
+		"Tajara" = 'icons/mob/species/tajaran/mask.dmi', "Vulpkanin" = 'harroway/icons/mob/species/vulpkanin/mask.dmi',
 		"Unathi" = 'icons/mob/species/unathi/mask.dmi',
 		)
 
