@@ -166,7 +166,7 @@ proc/sanitize_local(var/text, var/mode = SANITIZE_CHAT)
 	return text
 
 
-/proc/ruscapitalize(var/t as text)
+/proc/capitalize(var/t as text)
 	var/s = 2
 	if(copytext(t,1,2) == ";")
 		s += 1
@@ -204,13 +204,11 @@ proc/sanitize_local(var/text, var/mode = SANITIZE_CHAT)
 	return t
 
 /proc/to_chat(target, message)
-	if(!message)
-		return
-	message = replacetext(message, "&#1103;", "&#255;")
+	if(istext(message))
+		message = replace_characters(message, list("&#1103;"="&#255;"))
 	target << message
 
 /proc/to_world(message)
-	if(!message)
-		return
-	message = replacetext(message, "&#1103;", "&#255;")
+	if(istext(message))
+		message = replace_characters(message, list("&#1103;"="&#255;"))
 	world << message
