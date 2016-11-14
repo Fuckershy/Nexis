@@ -100,6 +100,7 @@
 		new /obj/item/device/radio/headset/headset_med(src)
 		new /obj/item/taperoll/medical(src)
 		new /obj/item/weapon/storage/belt/medical/emt(src)
+		new /obj/item/weapon/material/twohanded/defibrillator(src)
 		return
 
 /obj/structure/closet/secure_closet/medical_torch
@@ -134,6 +135,7 @@
 	new /obj/item/weapon/storage/box/autoinjectors(src)
 	new /obj/item/device/healthanalyzer(src)
 	new /obj/item/clothing/glasses/hud/health(src)
+	new /obj/item/weapon/material/twohanded/defibrillator(src)
 	return
 
 /obj/structure/closet/secure_closet/medical_contractor
@@ -216,6 +218,7 @@
 	new /obj/item/clothing/glasses/hud/health(src)
 	new /obj/item/device/flash(src)
 	new /obj/item/device/megaphone(src)
+	new /obj/item/weapon/material/twohanded/defibrillator(src)
 	return
 
 /obj/structure/closet/secure_closet/paramedic
@@ -251,6 +254,7 @@
     new /obj/item/weapon/extinguisher/mini(src)
     new /obj/item/weapon/storage/box/freezer(src)
     new /obj/item/clothing/accessory/storage/white_vest(src)
+    new /obj/item/weapon/material/twohanded/defibrillator(src)
 
 /obj/structure/closet/secure_closet/CMO
 	name = "chief medical officer's locker"
