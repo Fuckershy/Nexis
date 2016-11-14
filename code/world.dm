@@ -471,6 +471,8 @@ var/world_topic_spam_protect_time = world.timeofday
 		to_world("<span class=danger>World reboot waiting for external scripts. Please be patient.</span>")
 		return
 
+		reboot_updating()
+
 	..(reason)
 
 /world/Del()
