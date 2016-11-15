@@ -42,7 +42,7 @@
 		luminosity = 1
 
 /turf/proc/initialize()
-	yreturn
+	return
 
 /turf/proc/update_icon()
 	return
