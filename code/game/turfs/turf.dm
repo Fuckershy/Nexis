@@ -35,12 +35,14 @@
 		spawn( 0 )
 			src.Entered(AM)
 			return
-	turfs |= src
 
 	if(dynamic_lighting)
 		luminosity = 0
 	else
 		luminosity = 1
+
+/turf/proc/initialize()
+	yreturn
 
 /turf/proc/update_icon()
 	return
