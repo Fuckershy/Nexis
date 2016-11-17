@@ -7,8 +7,8 @@
 	#include "harroway_unit_testing.dm"
 	#include "harroway_zas_tests.dm"
 
-	#include "../shared/harroway_torch_areas.dm"
-	#include "../shared/harroway_torch_zas_tests.dm"
+	#include "../shared/exodus_torch_areas.dm"
+	#include "../shared/exodus_torch_zas_tests.dm"
 
 	#include "harroway-1.dmm"
 	#include "harroway-2.dmm"
