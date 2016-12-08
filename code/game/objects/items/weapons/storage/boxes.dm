@@ -202,7 +202,7 @@
 	desc = "A box containing 5 highly experimental supermatter grenades."
 	icon_state = "radbox"
 	startswith = list(/obj/item/weapon/grenade/supermatter = 5)
-    
+
 /obj/item/weapon/storage/box/trackimp
 	name = "boxed tracking implant kit"
 	desc = "Box full of scum-bag tracking utensils."
@@ -415,3 +415,13 @@
 				/obj/item/weapon/reagent_containers/food/snacks/checker/rook/red = 2,
 				/obj/item/weapon/reagent_containers/food/snacks/checker/queen/red = 1,
 				/obj/item/weapon/reagent_containers/food/snacks/checker/king/red = 1)
+
+/obj/item/weapon/storage/box/magazines45rubber
+	name = "magazines box of .45 rubber"
+	desc = "This box holds magazines of rubber ammo"
+	startswith = list(/obj/item/ammo_magazine/c45m/rubber = 5)
+
+/obj/item/weapon/storage/box/magazines45flash
+	name = "magazines box of .45 flash"
+	desc = "This box holds magazines of flash ammo"
+	startswith = list(/obj/item/ammo_magazine/c45m/flash = 5)
