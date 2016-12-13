@@ -160,6 +160,8 @@
 	max_age = 90
 	
 	darksight = 4
+	brute_mod = 1.2
+	burn_mod = 1.3
 
 	spawn_flags = CAN_JOIN | IS_WHITELISTED
 	appearance_flags = HAS_HAIR_COLOR | HAS_LIPS | HAS_UNDERWEAR | HAS_SKIN_COLOR
